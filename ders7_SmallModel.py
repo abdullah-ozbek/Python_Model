@@ -52,3 +52,4 @@ class SmallModel(nn.Module):
         x = self.Block3(x)
         x = self.HeadBlock(x)
         return x
+    
