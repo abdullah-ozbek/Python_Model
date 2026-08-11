@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class SmallModel(nn.Module):
+class SmallCifarModel(nn.Module):
 
     def __init__(self, num_classes=10, dropout=0.3):
         super().__init__()
